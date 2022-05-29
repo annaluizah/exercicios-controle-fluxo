@@ -161,13 +161,13 @@ public class Main {
             case "Sábado":
                 System.out.println(7);
                 break;
-           // case "Domingo":
-                //System.out.println(1);
-                //break;
-            default:
+           case "Domingo":
                 System.out.println(1);
                 break;
-                //System.out.println("Dia inválido");
+            default:
+                //System.out.println(1);
+                System.out.println("Dia inválido");
+                break;
         }
     }
 
